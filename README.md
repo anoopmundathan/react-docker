@@ -12,7 +12,7 @@ Development workflow using Docker for react app
 ```
 $ git clone https://github.com/anoopmundathan/react-docker-client.git
 $ cd react-docker-client
-
+```
 ### To Run inside docker container
 
 * Build docker image
