@@ -1,12 +1,15 @@
 version: '2'
 
 services:
-  api:
+  web:
     build: .
     command: npm start
     ports:
       - '3000:3000'
     volumes:
       - .:/usr/src/app
-      
+  api:
+    image: 'react-docker-server'
+    ports:
+      - '3001:3001'
 
