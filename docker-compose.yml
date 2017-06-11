@@ -9,7 +9,7 @@ services:
     volumes:
       - .:/usr/src/app
   api:
-    image: 'react-docker-server'
+    image: 'react-docker-server:latest'
     ports:
       - '3001:3001'
 
