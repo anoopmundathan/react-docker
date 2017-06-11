@@ -1,6 +1,6 @@
-# reat-docker-client
+# reat-docker
 
-Development workflow using Docker for react app
+Development workflow using Docker for react app. This app consists of two services ```web``` and ```api``
 
 ## Getting Started
 
@@ -10,32 +10,11 @@ Development workflow using Docker for react app
 
 ### Setup
 ```
-$ git clone https://github.com/anoopmundathan/react-docker-client.git
+$ git clone https://github.com/anoopmundathan/react-docker.git
 $ cd react-docker-client
 ```
-### To Run inside docker container
-
-* Build docker image
-```
-docker-compose build
-```
-
-* Launch docker container
+### Run containers
 ```
 docker-compose up
 ```
-
-* View running container
-```
-docker ps 
-```
-
-* Stop container
-```
-docker stop <container-id>
-```
-
-* Remove container
-```
-docker rm <container-id>
-```
+This will spin up two containers one is for ```webpack-dev-server``` and other is for ```express node api server```
