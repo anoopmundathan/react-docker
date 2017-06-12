@@ -1,6 +1,6 @@
 # react-docker
 
-Development workflow using Docker for react app. This app has got two services,  ```web``` and ```api``
+Development workflow using Docker for react app. This app has got two services,  ```web``` and ```api```
 
 ## Getting Started
 
